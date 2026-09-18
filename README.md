@@ -1,6 +1,6 @@
 # Qwen3-TTS Voice Clone
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wsamuelw/qwen3-tts-voice-clone/blob/main/qwen3-tts-voice-clone.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/47096/qwen3-tts-voice-clone/blob/main/qwen3-tts-voice-clone.ipynb)
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![GPU](https://img.shields.io/badge/GPU-T4+-orange.svg)
@@ -50,7 +50,7 @@ The fastest way to try it — zero setup required. First run takes ~3-5 minutes 
 ### Running Locally
 
 ```bash
-git clone https://github.com/wsamuelw/qwen3-tts-voice-clone.git
+git clone https://github.com/47096/qwen3-tts-voice-clone.git
 cd qwen3-tts-voice-clone
 pip install -r requirements.txt
 # Open the notebook in Jupyter:
