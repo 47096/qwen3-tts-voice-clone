@@ -1,5 +1,7 @@
 # Qwen3-TTS Voice Clone
 
+**Demo — clone a voice from a short sample in Colab (Qwen3-TTS).**
+
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/47096/qwen3-tts-voice-clone/blob/main/qwen3-tts-voice-clone.ipynb)
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -7,13 +9,27 @@
 
 Voice cloning powered by [Qwen3-TTS](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base). Upload a short reference audio sample, and this project generates speech that mimics the speaker's voice characteristics.
 
-## Use Cases
+## Five commercial use cases
 
-- **Content creation** — dub videos, podcasts, and audiobooks with a consistent voice
-- **Education** — generate language learning materials with natural pronunciation
-- **Entertainment** — character voice consistency across games and animations
-- **Accessibility** — restore speech for people who have lost their voice (requires prior recording)
-- **Archival** — preserve endangered languages and historical voices
+| # | Use case | Who cares |
+|---|----------|-----------|
+| 1 | Brand / ad voice at scale | Marketing |
+| 2 | Course & training narration | L&D |
+| 3 | Product demos & explainers | Product marketing |
+| 4 | Accessibility voice for content | CX / product |
+| 5 | Localised VO (10 languages) | Global content |
+
+## Five personal use cases
+
+| # | Use case |
+|---|----------|
+| 1 | Podcast / YouTube VO when you can’t record |
+| 2 | Language practice in a familiar voice |
+| 3 | Keepsake messages (with consent) |
+| 4 | Draft audiobook chapters |
+| 5 | Personal accessibility listening |
+
+**Privacy:** reference audio is processed in Colab / Hugging Face — avoid confidential or personal recordings you are not allowed to use.
 
 ## Features
 
@@ -128,3 +144,11 @@ This tool is intended for legitimate use cases such as content creation, accessi
 - **Always** obtain consent before cloning someone's voice
 - **Clearly** label AI-generated audio in published content
 - **Be aware** of legal frameworks around synthetic media in your jurisdiction
+
+## Family
+
+- [`lux-tts`](https://github.com/47096/lux-tts) — Colab voice-clone demo (LuxTTS)
+- [`qwen3-asr`](https://github.com/47096/qwen3-asr) — Colab speech-to-text demo
+- [`mimo-reader`](https://github.com/47096/mimo-reader) / [`hanna`](https://github.com/47096/hanna) — shipped TTS products
+
+[datafying](https://datafying.co/)
