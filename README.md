@@ -60,7 +60,7 @@ The fastest way to try it — zero setup required. First run takes ~3-5 minutes 
 2. Go to **Runtime → Change runtime type** and select **T4 GPU** (if not already selected)
 3. Run all cells: **Runtime → Run all** (or press `Ctrl+Shift+F9`)
 4. Choose your model, enter the text, and select a language (or leave as Auto)
-5. Upload a reference audio file when prompted
+5. Or leave `use_sample=True` in Block 5 for the bundled sample
 6. Wait for the voice clone to generate — it will play and download automatically
 
 ### Running Locally
